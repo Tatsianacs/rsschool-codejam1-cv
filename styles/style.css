@@ -6,7 +6,7 @@ html {
   display: flex;
   max-width: 1024px;
   margin: 100px auto 100px;
-  box-shadow: 0px 0px 10px 10px #585858;
+  box-shadow: 0 0 10px 10px #585858;
 }
 
 .main-col {
@@ -106,7 +106,7 @@ blockquote {
 }
 
 blockquote::before {
-  font-family: Arial
+  font-family: Arial, sans-serif;
   content: "\201C";
   color: #7da8b7;
   font-size: 4em;
