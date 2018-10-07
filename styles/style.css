@@ -29,6 +29,15 @@ body {
   background-color: #626D71;
 }
 
+img.avatar {
+  border-radius: 50%;
+  border: 3px solid #DDDDDD;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+
 .aside-col a {
   color: #AFEEEE;
   text-decoration: none;
@@ -97,7 +106,7 @@ blockquote {
 }
 
 blockquote::before {
-  font-family: Arial;
+  font-family: Arial
   content: "\201C";
   color: #7da8b7;
   font-size: 4em;
@@ -108,4 +117,12 @@ blockquote::before {
 
 section span {
   font-style: italic;
+}
+
+img.logo {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
